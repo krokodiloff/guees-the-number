@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(90deg, #484848, #df8a0c);
+    background-attachment: fixed;
+    text-align: center;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #303b32;
+    text-align: center;
+    font-size: 90px; 
+}
+#parent {
+    text-align: center;
+}
+#field {
+    display: inline-block;
+}
+#field td {
+    color: rgba(85, 71, 71, 0.623);
+    font-size: 50px;
+    padding: 20px;
+    border: 3px solid rgb(124, 105, 105);
+    cursor: pointer;
+}
+.active {
+    background: rgb(168, 128, 112);
+}
+
